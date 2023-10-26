@@ -1,17 +1,17 @@
 import { useState } from 'react'
 import Header from './components/Header'
-import Balance from './components/Balance'
 import Footer from './components/Footer'
+import Card from './components/Card'
 function App() {
 
   return (
     <>
-      <div className='container mx-auto'>
-        <Header />
-        
-        
-      </div>
+      <Header />
 
+      <div className='mt-5 flex justify-center'>
+        <Card name={'Rappi'}/>
+      </div>
+      
       <Footer />
     </>
   )
