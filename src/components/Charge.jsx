@@ -17,9 +17,10 @@ const Charge = ({ concept, value }) => {
           <span className='text-rose-600 text-right'> -${value}749</span>
         </p>
         <p className='grid grid-cols-2'>
-          <span className='text-gray-950'> asdfsadfasdfasdfasdf{concept}</span>
-          <span className='text-rose-600 text-right'> -${value}29</span>
+          <span className='text-gray-950'> Nuebo kargo{concept}</span>
+          <span className='text-rose-600 text-right'> Guardar</span>
         </p>
+
       </div>
     </li>
   )

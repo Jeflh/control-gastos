@@ -8,8 +8,9 @@ function App() {
     <>
       <Header />
 
-      <div className='mt-5 flex justify-center'>
-        <Card name={'Rappi'}/>
+      <div className='flex flex-col justify-center  mt-5'>
+        <Card className="" name={''}/>
+        <Card className="" name={''}/>
       </div>
       
       <Footer />
